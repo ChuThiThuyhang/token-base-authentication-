@@ -48,6 +48,7 @@ Với những vấn đề này, khả năng mở rộng là vấn đề chính, 
 
 ## Cơ sở Token hoạt động như thế nào
 
+
 Xác thực dựa trên token là một  phương thức phi trạng thái.  Chúng tôi không lưu trữ bất kỳ thông tin nào về người dùng của chúng tôi trên máy chủ hoặc trong một session.
 
 Quan điểm này quan tâm tới nhiều vấn đề với việc phải lưu trữ thông tin lên server một cách độc lập.
@@ -125,8 +126,8 @@ Biểu đồ thư viện và trình debug tiện dụng này hiển thị hỗ t
 ## Kết luận
 Đây chỉ là xem xét cách thức và lý do tại sao nên dùng xác thực dựa trên cơ chế token. Như mọi khi trong thế giới an ninh, có nhiều, nhiều, nhiều, nhiều (quá nhiều?) Nhiều hơn cho mỗi chủ đề và nó thay đổi theo từng trường hợp sử dụng. Thậm chí, chúng tôi còn nghiên cứu một số chủ đề về khả năng mở rộng cũng xứng đáng với cuộc trò chuyện của riêng họ.
 
-Đây là một  phần xem lại nhanh, vì vậy xin vui lòng đưa ra bất cứ điều gì bạn đã bỏ lỡ hoặc bất kỳ câu hỏi nào bạn có về vấn đề này.
-In our next article, we'll be looking at the ``anatomy of JSON Web Tokens``. For full code examples on how to authenticate a Node API using JSON Web Tokens, check out our book ``MEAN Machine``.
+Đây là một mô hình tổng quan, vì vậy xin vui lòng đưa ra bất cứ điều gì bạn đã bỏ lỡ hoặc bất kỳ câu hỏi nào bạn có về vấn đề này.
+
 Trong bài viết tiếp theo của chúng tôi, chúng tôi sẽ xem xét giải thuật ``phân tích JSON Web Tokens``. Để biết đầy đủ các code ví dụ về cách xác thực API Node bằng cách sử dụng JSON Web Tokens, hãy xem cuốn sách của chúng tôi `` MEAN Machine``.
 
 Nguồn: [link](https://scotch.io/tutorials/the-ins-and-outs-of-token-based-authentication)
